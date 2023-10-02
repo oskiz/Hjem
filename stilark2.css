@@ -45,6 +45,12 @@ footer {
     text-align: left;
 }
 
-#norgesmestere{
+#norgesmestere {
     width: 50%;
+}
+
+@media (max-width: 767px) {
+    #norgesmestere {
+        width: 100%;
+    }
 }
